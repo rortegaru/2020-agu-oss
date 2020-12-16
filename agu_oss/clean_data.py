@@ -18,7 +18,8 @@ def open_and_clean(url):
     Pandas.DataFrame
 
     """
-#Create a Pandas data frame
+
+    #Create a Pandas data frame
     temp_df = pd.read_csv(url,
                           skiprows=69,
                           delim_whitespace=True)
